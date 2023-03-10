@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+
 .messagedefilant {
     display: block;
     padding: 0;
@@ -6,6 +9,8 @@
     height: 30px;
     background-color: #fff2ce;
     align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
   }
   
 .messagedefilant a {
