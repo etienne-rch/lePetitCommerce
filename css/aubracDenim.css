@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container-carousel-product {
+    height: 70vh;
+}
+
+.container-carousel-product img {
+    width: 100%;
+}
+
+.control-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.slides {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    flex: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.slide.active {
+    display: block;
+}
+
+.prev-btn {
+    border: transparent;
+    background: transparent;
+}
+
+.next-btn {
+    border: transparent;
+    background: transparent;
+}
+
+.prev-btn svg {
+    width: 50px;
+    height: 50px;
+}
+
+.next-btn svg {
+    width: 50px;
+    height: 50px;
+}
+
+
+/*TITLE PRODUCT*/
+.title-product{
+    margin-top: 40px;
+    padding: 0px 10px 0px 10px;
+}
+
+.title-product h2 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.title-product span {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+
+/*TAILLE*/
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+select {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    border: none;
+}
+  
+.container-taille {
+    padding: 0px 10px 0px 10px;
+    margin: 20px 0px;
+}
+
+
+
+
+/*QUANTITE*/
+.quantite {
+    padding: 0px 10px 0px 10px;
+    margin: 20px 0px;
+}
+  
+.quantite input {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50px;
+    text-align: center;
+  }
+  
+  .btn-moins, .btn-plus {
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-moins:hover, .btn-plus:hover {
+    background-color: #ccc;
+  }
+  
+  
+
+
+
+
+
+/*BTN AJOUTER*/
+.container-btn-ajouter {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+  .btn-ajouter {
+    font-size: 25px;
+    font-weight: 300;
+    width: 90%;
+    color: #fff;
+    background-color: black;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+  }
+  
+
+.description {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+.container-livraison {
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff2ce;
+}
+
+.livraison-inner p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.savoir-inner button {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}

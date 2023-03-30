@@ -1,0 +1,21 @@
+.Outerwear-inner img {
+    width: 100%;
+}
+
+.Outerwear-inner {
+    width: 50%;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.container-outerwear {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-products {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
