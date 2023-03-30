@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/products.css">
     <link rel="stylesheet" href="../css/outerwear.css">
     <link rel="stylesheet" href="../css/aubracDenim.css">
+    <link rel="stylesheet" href="../css/media-screen.css">
     <title>le Petit Commerce</title>
     <link rel="shortcut icon" href="../assets/img/LOGOONGLET.png" type="image/x-icon">
 </head>
@@ -85,58 +86,63 @@
 
 
   <!--MAIN-->
-  <div class="container-carousel-product">
-    <div class="slides">
-        <img class="slide-active" id="aubracdenim1" src="../assets/img/Outerwear/carousel/aubracdenimblousonstone1_1984.webp" alt="">
+  <div class="container-main-product">
+    <div class="container-carousel-product">
+      <div class="slides">
+          <img class="slide-active" id="aubracdenim1" src="../assets/img/Outerwear/carousel/aubracdenimblousonstone1_1984.webp" alt="">
+      </div>
+      <div class="control-inner">
+          <div class="control"> 
+              <button class="prev-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                </svg>
+              </button>
+              <button class="next-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+              </button>
+          </div>
+      </div>
     </div>
-    <div class="control-inner">
-        <div class="control"> 
-            <button class="prev-btn">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-              </svg>
-            </button>
-            <button class="next-btn">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-              </svg>
-            </button>
+  
+    <div class="container-description">
+      <div class="title-product">
+        <h2>Blouson Aubrac denim</h2>
+        <span>200,00€</span>
+      </div>
+    
+      <div class="container-taille">
+        <label for="taille">Choisissez votre taille :</label>
+        <select id="taille">
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </div>
+    
+    
+      <div class="quantite">
+        <label for="quantite">Quantité :</label>
+        <div class="input-group">
+          <button class="btn-moins">-</button>
+          <input type="number" id="quantite" min="1" value="1">
+          <button class="btn-plus">+</button>
         </div>
-    </div>
-  </div>
-
-  <div class="title-product">
-    <h2>Blouson Aubrac denim</h2>
-    <span>200,00€</span>
-  </div>
-
-  <div class="container-taille">
-    <label for="taille">Choisissez votre taille :</label>
-    <select id="taille">
-      <option value="S">S</option>
-      <option value="M">M</option>
-      <option value="L">L</option>
-      <option value="XL">XL</option>
-    </select>
-  </div>
-
-
-  <div class="quantite">
-    <label for="quantite">Quantité :</label>
-    <div class="input-group">
-      <button class="btn-moins">-</button>
-      <input type="number" id="quantite" min="1" value="1">
-      <button class="btn-plus">+</button>
+      </div>
+      
+      <div class="container-btn-ajouter">
+        <button class="btn-ajouter">Ajouter au panier&nbsp;→</button>
+      </div>
+      
+      <div class="description">
+        <p>Le blouson AUBRAC DENIM est un choix judicieux pour tous ceux qui cherchent une alternative à la veste en jean classique.</p>
+      </div>
     </div>
   </div>
   
-  <div class="container-btn-ajouter">
-    <button class="btn-ajouter">Ajouter au panier&nbsp;→</button>
-  </div>
-  
-  <div class="description">
-    <p>Le blouson AUBRAC DENIM est un choix judicieux pour tous ceux qui cherchent une alternative à la veste en jean classique.</p>
-  </div>
 
   <div class="container-livraison">
     <div class="livraison-inner">

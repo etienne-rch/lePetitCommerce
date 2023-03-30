@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 1024px) {
     .container-img {
         width: 50%;
@@ -18,6 +19,38 @@
     .container-img-histoire {
         display: flex;
         justify-content: center;
+    }
+
+    /*PRODUCT PAGE*/
+    .Outerwear-inner {
+        width: 33.333%;
+    }
+
+    .container-carousel-product {
+        height: 100%;
+        overflow: hidden;
+        width: 50%;
+    }
+
+    .container-carousel-product img {
+        height: 90vh;
+        
+    }
+
+    .control {
+        position: absolute;
+        top: 90vh;
+        left: 52%;
+    }
+
+    .container-main-product {
+        display: flex;
+        height: 90vh;
+        justify-content: space-between;
+    }
+
+    .container-description {
+        width: 50%;
     }
 }
 

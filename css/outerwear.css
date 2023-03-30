@@ -1,21 +1,17 @@
-.Outerwear-inner img {
-    width: 100%;
-}
 
 .Outerwear-inner {
-    width: 50%;
     text-decoration: none;
     color: black;
     margin-bottom: 20px;
+    width: 50%;
 }
 
 .container-outerwear {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
-.text-products {
-    display: flex;
-    flex-direction: column;
-    padding: 0 15px 0 15px;
+#title {
+    padding: 10px;
 }

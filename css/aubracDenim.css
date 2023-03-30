@@ -4,10 +4,6 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.container-carousel-product {
-    height: 70vh;
-}
-
 .container-carousel-product img {
     width: 100%;
 }
@@ -21,12 +17,6 @@ body {
 .slides {
     display: flex;
     overflow: hidden;
-}
-
-.slide {
-    display: none;
-    flex: 1;
-    transition: all 0.5s ease-in-out;
 }
 
 .slide.active {
