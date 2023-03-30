@@ -11,6 +11,8 @@ body {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-shadow: #000000 2px 2px;
+
 }
 
 .first-titre h1 {
