@@ -89,7 +89,7 @@
   <div class="container-main-product">
     <div class="container-carousel-product">
       <div class="slides">
-          <img class="slide-active" id="aubracdenim1" src="../assets/img/Outerwear/carousel/aubracdenimblousonstone1_1984.webp" alt="">
+          <img class="slide-active" id="product-image" src="" alt="">
       </div>
       <div class="control-inner">
           <div class="control"> 
@@ -109,8 +109,8 @@
   
     <div class="container-description">
       <div class="title-product">
-        <h2>Blouson Aubrac denim</h2>
-        <span>200,00€</span>
+        <h2 id="product-title"></h2>
+        <span id="product-price"></span>
       </div>
     
       <div class="container-taille">
@@ -133,12 +133,15 @@
         </div>
       </div>
       
-      <div class="container-btn-ajouter">
-        <button class="btn-ajouter"><a href="user.html">Ajouter au panier&nbsp;→</a></button>
-      </div>
+      <a id="btn-add" href="user.html">
+        <div class="container-btn-ajouter">
+          <button class="btn-ajouter">Ajouter au panier&nbsp;→</button>
+        </div>
+      </a>
+      
       
       <div class="description">
-        <p>Le blouson AUBRAC DENIM est un choix judicieux pour tous ceux qui cherchent une alternative à la veste en jean classique.</p>
+        <p id="product-description"></p>
       </div>
     </div>
   </div>
@@ -206,7 +209,7 @@
   <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="../js/banner.js"></script>
-  <script src="../js/carouselProduct.js"></script>
   <script src="../js/droptown.js"></script>
+  <script src="../js/outerwear-product.js"></script>
 </body>
 </html>

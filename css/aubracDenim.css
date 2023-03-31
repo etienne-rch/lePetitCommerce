@@ -137,7 +137,7 @@ select {
     cursor: pointer;
   }
   
-  .btn-ajouter a {
+  #btn-add {
     text-decoration: none;
     color: white;
   }
