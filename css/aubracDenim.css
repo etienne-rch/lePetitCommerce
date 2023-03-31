@@ -137,6 +137,10 @@ select {
     cursor: pointer;
   }
   
+  .btn-ajouter a {
+    text-decoration: none;
+    color: white;
+  }
 
 .description {
     font-weight: 400;
