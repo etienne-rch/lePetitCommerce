@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/banner.css">
     <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/outerwear.css">
+    <link rel="stylesheet" href="../css/aubracDenim.css">
+    <link rel="stylesheet" href="../css/media-screen.css">
     <title>le Petit Commerce</title>
     <link rel="shortcut icon" href="../assets/img/LOGOONGLET.png" type="image/x-icon">
 </head>
@@ -82,68 +85,75 @@
 
 
   <!--MAIN-->
-  <div class="container-overlay">
-    <div class="overlay">
-      <img class="img-background" src="/assets/img/AUBRACPATCH1.webp" alt="">
+  <div class="container-main-product">
+    <div class="container-carousel-product">
+      <div class="slides">
+          <img class="slide-active" id="product-image" src="" alt="">
+      </div>
+      <div class="control-inner">
+          <div class="control"> 
+              <button class="prev-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                </svg>
+              </button>
+              <button class="next-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg>
+              </button>
+          </div>
+      </div>
     </div>
-    <div class="first-titre">
-      <a href="Outerwear.html">Outerwear&nbsp;→</a>
+  
+    <div class="container-description">
+      <div class="title-product">
+        <h2 id="product-title"></h2>
+        <span id="product-price"></span>
+      </div>
+    
+      <div class="container-taille">
+        <label for="taille">Choisissez votre taille :</label>
+        <select id="taille">
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </div>
+    
+    
+      <div class="quantite">
+        <label for="quantite">Quantité :</label>
+        <div class="input-group">
+          <button class="btn-moins">-</button>
+          <input type="number" id="quantite" min="1" value="1">
+          <button class="btn-plus">+</button>
+        </div>
+      </div>
+      
+      <a id="btn-add" href="user.html">
+        <div class="container-btn-ajouter">
+          <button class="btn-ajouter">Ajouter au panier&nbsp;→</button>
+        </div>
+      </a>
+      
+      
+      <div class="description">
+        <p id="product-description"></p>
+      </div>
     </div>
   </div>
+  
 
-
-  <div class="container-overlay">
-    <div class="overlay">
-      <img class="img-background" src="/assets/img/tunic_stripes_6.webp" alt="">
+  <div class="container-livraison">
+    <div class="livraison-inner">
+      <p>Livraisons & retours</p>
     </div>
-    <div class="first-titre">
-      <a href="chemises.html">Chemises&nbsp;→</a>
-    </div>
-  </div>
-
-
-  <div class="container-overlay">
-    <div class="overlay">
-      <img class="img-background" src="/assets/img/battle_nude_2.webp" alt="">
-    </div>
-    <div class="first-titre">
-      <a href="">Sweats&nbsp;→</a>
+    <div class="savoir-inner">
+        <button class="" type="submit" name="commit" id="subscribe">En savoir plus&nbsp;→</button>
     </div>
   </div>
-
-
-  <div class="container-overlay">
-    <div class="overlay">
-      <img class="img-background" src="/assets/img/bristol_marine.webp" alt="">
-    </div>
-    <div class="first-titre">
-      <a href="">T-shirts&nbsp;→</a>
-    </div>
-  </div>
-
-
-  <div class="container-overlay">
-    <div class="overlay">
-      <img class="img-background" src="/assets/img/double_pleats_beige.webp" alt="">
-    </div>
-    <div class="first-titre">
-      <a href="">Pantalons&nbsp;→</a>
-    </div>
-  </div>
-
-
-  <div class="container-overlay mb-0">
-    <div class="overlay">
-      <img class="img-background" src="/assets/img/ARCHIEBEIGE.webp" alt="">
-    </div>
-    <div class="first-titre">
-      <a href="">Accessoires&nbsp;→</a>
-    </div>
-  </div>
-
-
-
-
 
 
   <!--FOOTER-->
@@ -198,5 +208,7 @@
   <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="../js/banner.js"></script>
+  <script src="../js/droptown.js"></script>
+  <script src="../js/chemises-product.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+.qui-sommes-nous {
+    background-color: #fff2ce;
+    text-align: center;
+}
+
+.qui-sommes-nous div {
+    margin: 20px;
+}
+
+.qui-sommes-nous div h2 {
+    padding-bottom: 30px;
+}

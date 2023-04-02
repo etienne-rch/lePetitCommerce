@@ -23,6 +23,10 @@ body {
     display: block;
 }
 
+.slide-active {
+
+}
+
 .prev-btn {
     border: transparent;
     background: transparent;
