@@ -1,0 +1,24 @@
+.container-boutique {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.google-map {
+    width: 100%;
+    padding: 10px;
+}
+
+.notre-boutique {
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.container-text {
+    background-color: #fff2ce;
+}
+
+.container-text p {
+    padding: 10px;
+}
