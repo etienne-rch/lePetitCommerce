@@ -4,11 +4,6 @@ select.addEventListener("change", function() {
   console.log(`La taille sélectionnée est : ${selectedSize}`);
 });
 
-
-
-
-
-
 const inputQuantite = document.getElementById("quantite");
 const btnMoins = document.querySelector(".btn-moins");
 const btnPlus = document.querySelector(".btn-plus");

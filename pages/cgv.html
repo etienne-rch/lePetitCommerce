@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/banner.css">
     <link rel="stylesheet" href="../css/products.css">
-    <link rel="stylesheet" href="../css/outerwear.css">
-    <link rel="stylesheet" href="../css/pageProduct.css">
-    <link rel="stylesheet" href="../css/media-screen.css">
+    <link rel="stylesheet" href="../css/user.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/cgv.css">
     <title>le Petit Commerce</title>
     <link rel="shortcut icon" href="../assets/img/LOGOONGLET.png" type="image/x-icon">
 </head>
@@ -62,8 +62,8 @@
             <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">La
               boutique</a>
             <ul class="dropdown-menu border-0">
-              <li><a class="dropdown-item" href="#">Qui sommes-nous ?</a></li>
-              <li><a class="dropdown-item" href="#">Contact</a></li>
+              <li><a class="dropdown-item" href="whoIam.html">Qui sommes-nous ?</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact</a></li>
               <li><a class="dropdown-item" href="#">Recrutement</a></li>
               <li><a class="dropdown-item" href="#">Evénements</a></li>
               <li><a class="dropdown-item" href="#">Presse</a></li>
@@ -84,76 +84,39 @@
   </nav>
 
 
-  <!--MAIN-->
-  <div class="container-main-product">
-    <div class="container-carousel-product">
-      <div class="slides">
-          <img class="slide-active" id="product-image" src="" alt="">
-      </div>
-      <div class="control-inner">
-          <div class="control"> 
-              <button class="prev-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
-                </svg>
-              </button>
-              <button class="next-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                </svg>
-              </button>
-          </div>
-      </div>
-    </div>
-  
-    <div class="container-description">
-      <div class="title-product">
-        <h2 id="product-title"></h2>
-        <span id="product-price"></span>
-      </div>
-    
-      <div class="container-taille">
-        <label for="taille">Choisissez votre taille :</label>
-        <select id="taille">
-          <option value="S">S</option>
-          <option value="M">M</option>
-          <option value="L">L</option>
-          <option value="XL">XL</option>
-        </select>
-      </div>
-    
-    
-      <div class="quantite">
-        <label for="quantite">Quantité :</label>
-        <div class="input-group">
-          <button class="btn-moins">-</button>
-          <input type="number" id="quantite" min="1" value="1">
-          <button class="btn-plus">+</button>
-        </div>
-      </div>
-      
-      <a id="btn-add" href="user.html">
-        <div class="container-btn-ajouter">
-          <button class="btn-ajouter">Ajouter au panier&nbsp;→</button>
-        </div>
-      </a>
-      
-      
-      <div class="description">
-        <p id="product-description"></p>
-      </div>
-    </div>
+  <div class="csg-container">
+    <h5 id="cgv-title">Conditions Générales de Vente</h5>
+    <p><strong>Article 1 : Objet</strong> <br>
+        Les présentes conditions générales de vente régissent les relations contractuelles entre Le petit commerce et ses clients dans le cadre de la vente en ligne de vêtements.</p>
+    <p><strong>Article 2 : Prix</strong> <br>
+        Les prix des produits sont indiqués en euros toutes taxes comprises (TTC) et hors frais de livraison. Le petit commerce se réserve le droit de modifier ses prix à tout moment mais les produits seront facturés sur la base des tarifs en vigueur au moment de la validation de la commande.</p>
+    <p><strong>Article 3 : Commande</strong> <br>
+        Le processus de commande se déroule comme suit : <br>
+        
+        Le client sélectionne le(s) produit(s) qu'il souhaite acheter et les ajoute à son panier. <br>
+        Le client vérifie les éléments de sa commande, identifie et corrige les éventuelles erreurs. <br>
+        Le client valide sa commande et effectue le paiement en suivant les instructions fournies sur le site. <br>
+        La confirmation de la commande entraîne acceptation des présentes conditions générales de vente, la reconnaissance d'en avoir parfaite connaissance et la renonciation à se prévaloir de ses propres conditions d'achat ou d'autres conditions.</p>
+    <p><strong>Article 4 : Paiement</strong> <br>
+        Le paiement est exigible immédiatement à la date de la commande. Le client peut effectuer le règlement par carte de paiement, virement bancaire ou tout autre moyen de paiement proposé sur le site. Le petit commerce se réserve le droit de suspendre toute gestion de commande et toute livraison en cas de refus d'autorisation de paiement de la part des organismes officiellement accrédités ou en cas de non-paiement.</p>
+    <p><strong>Article 5 : Livraison</strong> <br>
+        Les produits sont livrés à l'adresse de livraison indiquée par le client lors de la commande. Le petit commerce ne peut être tenu responsable des conséquences dues à un retard de livraison ou à une perte de colis causés par un tiers ou par le client. En cas de colis endommagé, le client doit refuser la livraison et contacter immédiatement le service client.</p>
+    <p><strong>Article 6 : Droit de rétractation</strong> <br>
+        Le client dispose d'un délai de 14 jours à compter de la réception des produits pour exercer son droit de rétractation sans avoir à justifier de motifs ni à payer de pénalités. Le petit commerce remboursera alors le client dans un délai de 14 jours suivant la réception du retour des produits.</p>
+    <p><strong>Article 7 : Garanties</strong> <br>
+        Le petit commerce garantit que ses produits sont conformes à la réglementation en vigueur et exempts de tout vice caché. Le client bénéficie d'une garantie légale de conformité de 2 ans à compter de la délivrance du produit.</p>
+    <p><strong>Article 8 : Données personnelles</strong> <br>
+        Le traitement des données personnelles du client est réalisé dans le respect de la loi en vigueur. Le client dispose d'un droit d'accès, de rectification et de suppression des données le concernant. Le petit commerce s'engage à ne pas divulguer les informations personnelles du client à des tiers.</p>
+    <p><strong>Article 9 : Propriété intellectuelle</strong> <br>
+        Tous les éléments du site Le petit commerce sont et restent la propriété intellectuelle exclusive de l'entreprise. Personne n'est autorisé à reproduire, exploiter, rediffuser ou utiliser à quelque titre que ce soit, même partiellement, des éléments du site qu'ils soient logiciels, visuels ou sonores.</p>
+    <p><strong>Article 10 : Responsabilité</strong> <br>
+        Le petit commerce ne saurait être tenu pour responsable de l'inexécution du contrat en cas de force majeure, de perturbation ou de grève totale ou partielle notamment des services postaux et moyens de transport et/ou communications. Le petit commerce ne saurait être responsable de tous dommages indirects qui pourraient survenir du fait de l'achat des produits.</p>
+    <p><strong>Article 11 : Litiges</strong> <br>
+        Les présentes conditions générales de vente sont soumises à la loi française. En cas de litige, le client s'engage à contacter en priorité Le petit commerce pour tenter de résoudre le différend à l'amiable. À défaut d'accord amiable, les tribunaux français seront seuls compétents.</p>
+    <p><strong>Article 12 : Modification des conditions générales de vente</strong> <br>
+        Le petit commerce se réserve le droit de modifier les présentes conditions générales de vente à tout moment, sans préavis ni indemnité. Les conditions applicables sont celles en vigueur au moment de la passation de la commande.</p>
   </div>
-  
 
-  <div class="container-livraison">
-    <div class="livraison-inner">
-      <p>Livraisons & retours</p>
-    </div>
-    <div class="savoir-inner">
-        <button class="" type="submit" name="commit" id="subscribe">En savoir plus&nbsp;→</button>
-    </div>
-  </div>
 
 
   <!--FOOTER-->
@@ -208,7 +171,5 @@
   <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="../js/banner.js"></script>
-  <script src="../js/droptown.js"></script>
-  <script src="../js/chemises-product.js"></script>
 </body>
 </html>

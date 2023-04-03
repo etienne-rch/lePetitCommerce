@@ -143,8 +143,11 @@ body {
 }
 
 .container-histoire button {
-    outline: 1px solid;
     width: 150px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 0;
 }
 
 /*STORE*/

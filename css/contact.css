@@ -1,0 +1,6 @@
+.form-group input {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 0;
+}

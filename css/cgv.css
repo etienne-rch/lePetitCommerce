@@ -1,0 +1,13 @@
+.csg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cgv-title {
+    padding: 20px;
+}
+
+.csg-container p {
+    padding: 15px;
+}
