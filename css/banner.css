@@ -2,17 +2,17 @@
 
 
 .messagedefilant {
-    display: block;
-    padding: 0;
-    overflow: hidden;
-    position: relative;
-    height: 30px;
-    background-color: #fff2ce;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-  }
-  
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+  background-color: #fff2ce;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
 .messagedefilant a {
   color: black;
   font-size: 20px;
@@ -23,33 +23,45 @@
 
 .messagedefilant div {
   position: absolute;
-  min-width: 100%; /* au minimum la largeur du conteneur */
+  min-width: 100%;
+  /* au minimum la largeur du conteneur */
   height: 30px;
 }
-  
+
 .messagedefilant div span {
   position: relative;
-  top:0; left:0;
+  top: 0;
+  left: 0;
   display: inline-block;
   white-space: nowrap;
   font-size: 2rem;
 }
-  
+
 .messagedefilant div span:first-child {
   animation: defilement 10s infinite linear;
 }
-  
+
 .messagedefilant div span:last-child {
   position: absolute;
   animation: defilement2 10s infinite linear;
 }
-  
+
 @keyframes defilement {
-  0% { margin-left: 0; }
-  100% { margin-left: -100%; }
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: -100%;
+  }
 }
-  
+
 @keyframes defilement2 {
-  0% { margin-left: 100%; }
-  100% { margin-left: 0%; }
+  0% {
+    margin-left: 100%;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
 }

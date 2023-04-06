@@ -23,9 +23,7 @@ body {
     display: block;
 }
 
-.slide-active {
-
-}
+.slide-active {}
 
 .prev-btn {
     border: transparent;
@@ -49,7 +47,7 @@ body {
 
 
 /*TITLE PRODUCT*/
-.title-product{
+.title-product {
     margin-top: 40px;
     padding: 0px 10px 0px 10px;
 }
@@ -71,15 +69,15 @@ label {
     font-weight: 500;
     margin-bottom: 10px;
     font-size: 18px;
-  }
-  
+}
+
 select {
     font-size: 20px;
     font-weight: 600;
     padding: 5px;
     border: none;
 }
-  
+
 .container-taille {
     padding: 0px 10px 0px 10px;
     margin: 20px 0px;
@@ -93,7 +91,7 @@ select {
     padding: 0px 10px 0px 10px;
     margin: 20px 0px;
 }
-  
+
 .quantite input {
     font-size: 20px;
     font-weight: 600;
@@ -102,21 +100,23 @@ select {
     border-bottom: 1px solid black;
     width: 50px;
     text-align: center;
-  }
-  
-  .btn-moins, .btn-plus {
+}
+
+.btn-moins,
+.btn-plus {
     background-color: transparent;
     border: none;
     padding: 5px 10px;
     font-size: 16px;
     cursor: pointer;
-  }
-  
-  .btn-moins:hover, .btn-plus:hover {
+}
+
+.btn-moins:hover,
+.btn-plus:hover {
     background-color: #ccc;
-  }
-  
-  
+}
+
+
 
 
 
@@ -130,7 +130,7 @@ select {
     margin-bottom: 30px;
 }
 
-  .btn-ajouter {
+.btn-ajouter {
     font-size: 25px;
     font-weight: 300;
     width: 90%;
@@ -139,12 +139,12 @@ select {
     border: none;
     padding: 12px 24px;
     cursor: pointer;
-  }
-  
-  #btn-add {
+}
+
+#btn-add {
     text-decoration: none;
     color: white;
-  }
+}
 
 .description {
     font-weight: 400;

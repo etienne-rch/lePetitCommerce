@@ -5,7 +5,9 @@ const imageWidth = carousel.offsetWidth;
 let currentImageIndex = 0;
 
 function updateCarousel() {
-  carouselInner.style.transform = `translateX(-${currentImageIndex * imageWidth}px)`;
+  carouselInner.style.transform = `translateX(-${
+    currentImageIndex * imageWidth
+  }px)`;
 }
 
 setInterval(() => {
@@ -13,11 +15,10 @@ setInterval(() => {
   updateCarousel();
 }, 3000);
 
-
 //BOOTSTRAP CAROUSEL//
-const myCarouselElement = document.querySelector('#myCarousel')
+const myCarouselElement = document.querySelector("#myCarousel");
 
 const bootstrapCarousel = new bootstrap.Carousel(myCarouselElement, {
   interval: 4000,
   pause: "hover",
-})
+});

@@ -1,0 +1,158 @@
+.title h6 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.space-holder {
+    position: relative;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.horizontal {
+    position: absolute;
+    height: 100%;
+    will-change: transform;
+}
+
+.cards {
+    position: relative;
+    height: 100%;
+    padding: 0 0 0 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sample-card {
+    position: relative;
+    height: 500px;
+    width: 300px;
+    background-color: #fff2ce;
+    margin-right: 75px;
+    flex-shrink: 0;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.stage {
+    font-weight: 500;
+}
+
+.sample-card div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sample-card span {
+    padding: 10px 0 10px 0;
+}
+
+
+
+/*CALENDAR*/
+.calendar {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weekdays {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.weekdays div {
+    width: 14.28%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.days div {
+    width: 14.28%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prev,
+.next {
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #f2f2f2;
+}
+
+.date h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.today {
+    background-color: #f2f2f2;
+}
+
+.selected {
+    background-color: #e0e0e0;
+}
+
+
+#button {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#button button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-weight: 500;
+}
+
+#button button a {
+    text-decoration: none;
+    color: black;
+}

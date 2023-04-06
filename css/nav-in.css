@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 .container-nav-in {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
 .nav-in {
   list-style: none;
   margin: 0;
@@ -17,7 +17,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  
+
 }
 
 .nav-in li {
