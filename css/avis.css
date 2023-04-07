@@ -1,0 +1,91 @@
+.container-avis {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating input[type="radio"]:checked+label,
+.rating label:hover {
+    color: #f2b01e;
+}
+
+
+
+/*CARDS*/
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+
+.user-name {
+    margin: 0;
+}
+
+.user-rating {
+    margin: 0;
+    font-size: 14px;
+    color: #000000;
+}
+
+.user-comment {
+    margin-top: 10px;
+}
