@@ -1,0 +1,23 @@
+const form = document.querySelector("form");
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const nom = document.querySelector("#nom").value;
+  const prenom = document.querySelector("#prenom").value;
+  const email = document.querySelector("#email").value;
+  const telephone = document.querySelector("#telephone").value;
+  const ville = document.querySelector("#ville").value;
+  const pays = document.querySelector("#pays").value;
+  const cv = document.querySelector("#cv").value;
+  const lettre_motivation = document.querySelector("#lettre_motivation").value;
+  const message = document.querySelector("#message").value;
+  console.log("Nom : " + nom);
+  console.log("Prénom : " + prenom);
+  console.log("Email : " + email);
+  console.log("Téléphone : " + telephone);
+  console.log("Ville : " + ville);
+  console.log("Pays : " + pays);
+  console.log("CV : " + cv);
+  console.log("Lettre de motivation : " + lettre_motivation);
+  console.log("Message : " + message);
+  form.reset();
+});

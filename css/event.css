@@ -1,0 +1,12 @@
+.container-event {
+    padding: 10px;
+}
+
+.container-event div {
+    padding: 20px 0 20px 0;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
