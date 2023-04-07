@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="../css/banner.css">
   <link rel="stylesheet" href="../css/products.css">
   <link rel="stylesheet" href="../css/outerwear.css">
+  <link rel="stylesheet" href="../css/pageProduct.css">
   <link rel="stylesheet" href="../css/media-screen.css">
   <title>le Petit Commerce</title>
   <link rel="shortcut icon" href="../assets/img/LOGOONGLET.png" type="image/x-icon">
@@ -27,7 +28,7 @@
 
 
   <!--NAVBAR-->
-  <nav class="navbar navbar bg fixed">
+  <nav class="navbar navbar bg">
     <div class="container-fluid">
       <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -83,109 +84,79 @@
 
 
   <!--MAIN-->
-
-
-  <h1 id="title">Outerwear</h1>
-
-
-  <div class="container-outerwear">
-    <a href="outerwear-product.html?productName=veste-jean-bleu&title=Blouson Aubrac Denim&price=200,00€&description=Le blouson AUBRAC DENIM est un choix judicieux pour tous ceux qui cherchent une alternative à la veste en jean classique."
-      class="Outerwear-inner">
-      <div class="card" style="width: 100%;">
-        <img src="../assets/img/Outerwear/veste-jean-bleu/1.webp" class="card-img-top" alt="photo">
-        <div class="card-body">
-          <h5 class="card-title">Blouson Aubrac Denim</h5>
-          <p class="card-text">200,00€</p>
+  <div class="container-main-product">
+    <div class="container-carousel-product">
+      <div class="slides">
+        <img class="slide-active" id="product-image" src="" alt="photo">
+      </div>
+      <div class="control-inner">
+        <div class="control">
+          <button class="prev-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+          </button>
+          <button class="next-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg>
+          </button>
         </div>
       </div>
-    </a>
+    </div>
 
-    <a href="outerwear-product.html?productName=veste-blanche&title=Blouson Aubrac Patchwork&price=200,00€&description=Inspiré des vêtements de travail, le blouson AUBRAC PATCHWORK est une veste courte confectionnée en twill de coton épais sans teinture. Les poches et les détails ont été réalisés avec les restants de tissus des autres produits de la collection."
-      class="Outerwear-inner">
-      <div class="card" style="width: 100%;">
-        <img src="../assets/img/Outerwear/veste-blanche/1.webp" class="card-img-top" alt="photo">
-        <div class="card-body">
-          <h5 class="card-title">Blouson Aubrac Patchwork</h5>
-          <p class="card-text">200,00€</p>
+    <div class="container-description">
+      <div class="title-product">
+        <h2 id="product-title"></h2>
+        <span id="product-price"></span>
+      </div>
+
+      <div class="container-taille">
+        <label for="taille">Choisissez votre taille :</label>
+        <select id="taille">
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+      </div>
+
+
+      <div class="quantite">
+        <label for="quantite">Quantité :</label>
+        <div class="input-group">
+          <button class="btn-moins">-</button>
+          <input type="number" id="quantite" min="1" value="1">
+          <button class="btn-plus">+</button>
         </div>
       </div>
-    </a>
 
-    <a href="outerwear-product.html?productName=veste-stripe&title=Blouson Aubrac Stripes&price=200,00€&description=Le blouson AUBRAC STRIPES est une version plus légère de notre nouvelle veste qui permet des associations de styles audacieuses."
-      class="Outerwear-inner">
-      <div class="card" style="width: 100%;">
-        <img src="../assets/img/Outerwear/aubracstripesblousonraye1_720x.webp" class="card-img-top" alt="photo">
-        <div class="card-body">
-          <h5 class="card-title">Blouson Aubrac Stripes</h5>
-          <p class="card-text">200,00€</p>
+      <a id="btn-add" href="user.html">
+        <div class="container-btn-ajouter">
+          <button class="btn-ajouter">Ajouter au panier&nbsp;→</button>
         </div>
-      </div>
-    </a>
+      </a>
 
-    <a href="outerwear-product.html?productName=veste-bleu&title=Blouson Aubrac Twill Bleu&price=200,00€&description=Le blouson AUBRAC TWILL est confectionné dans un twill de coton robuste en provenance du spécialiste Brisbane Moss (UK). La couleur bleu encre fait référence aux vêtements de travail mais reste facile à assortir avec n'importe quelle garde-robe."
-      class="Outerwear-inner">
-      <div class="card" style="width: 100%;">
-        <img src="../assets/img/Outerwear/aubractwillblousonbleuencre1_1728x.webp" class="card-img-top" alt="photo">
-        <div class="card-body">
-          <h5 class="card-title">Blouson Aubrac Twill Bleu</h5>
-          <p class="card-text">200,00€</p>
-        </div>
-      </div>
-    </a>
 
-    <a href="outerwear-product.html?productName=dublinerdenim1_2808x" class="Outerwear-inner">
-      <div class="card" style="width: 100%;">
-        <img src="../assets/img/Outerwear/dublinerdenim1_2808x.jpg" class="card-img-top" alt="photo">
-        <div class="card-body">
-          <h5 class="card-title">Veste Dubliner Denim</h5>
-          <p class="card-text">150,00€</p>
-        </div>
+      <div class="description">
+        <p id="product-description"></p>
       </div>
-    </a>
-
-    <a href="outerwear-product.html?productName=dublinertwillmarine1_1080x" class="Outerwear-inner">
-      <div class="card" style="width: 100%;">
-        <img src="../assets/img/Outerwear/dublinertwillmarine1_1080x.webp" class="card-img-top" alt="photo">
-        <div class="card-body">
-          <h5 class="card-title">Veste Dubliner Twill marine</h5>
-          <p class="card-text">150,00€</p>
-        </div>
-      </div>
-    </a>
-
-    <a href="outerwear-product.html?productName=mackiemarine1_2808x" class="Outerwear-inner">
-      <div class="card" style="width: 100%;">
-        <img src="../assets/img/Outerwear/mackiemarine1_2808x.webp" class="card-img-top" alt="photo">
-        <div class="card-body">
-          <h5 class="card-title">Imperméable Mackie marine</h5>
-          <p class="card-text">180,00€</p>
-        </div>
-      </div>
-    </a>
-
-    <a href="outerwear-product.html?productName=refugekaki1_9781386f-05c0-4a54-a9d4-95aea000056e_2376x"
-      class="Outerwear-inner">
-      <div class="card" style="width: 100%;">
-        <img src="../assets/img/Outerwear/refugekaki1_9781386f-05c0-4a54-a9d4-95aea000056e_2376x.webp"
-          class="card-img-top" alt="photo">
-        <div class="card-body">
-          <h5 class="card-title">Parka Refuge kaki</h5>
-          <p class="card-text">250,00€</p>
-        </div>
-      </div>
-    </a>
-
-    <a href="outerwear-product.html?productName=shieldgiletsansmanchesdarkindigo1_1512x" class="Outerwear-inner">
-      <div class="card" style="width: 100%;">
-        <img src="../assets/img/Outerwear/shieldgiletsansmanchesdarkindigo1_1512x.webp" class="card-img-top" alt="photo">
-        <div class="card-body">
-          <h5 class="card-title">Gilet sans manches Shield marine</h5>
-          <p class="card-text">120,00€</p>
-        </div>
-      </div>
-    </a>
+    </div>
   </div>
 
+
+  <div class="container-livraison">
+    <div class="livraison-inner">
+      <p>Livraisons & retours</p>
+    </div>
+    <div class="savoir-inner">
+      <button class="" type="submit" name="commit" id="subscribe"><a href="retour.html" style="text-decoration: none; color: black;">En savoir plus&nbsp;→</a></button>
+    </div>
+  </div>
 
 
   <!--FOOTER-->
@@ -245,6 +216,8 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
   <script src="../js/banner.js"></script>
+  <script src="../js/droptown.js"></script>
+  <script src="../js/t-shirt-product.js"></script>
 </body>
 
 </html>
